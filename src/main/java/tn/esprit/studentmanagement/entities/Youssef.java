@@ -19,6 +19,5 @@ public class Youssef {
     @ManyToOne
     private Department department;
 
-    @OneToMany(mappedBy = "student")
-    private List<Enrollment> enrollments;
+
 }
