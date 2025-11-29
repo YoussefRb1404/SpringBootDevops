@@ -14,7 +14,7 @@ public class Youssef {
     private String email;
     private String phone;
     private LocalDate dateOfBirth;
-
+    private String gender;
 
     @ManyToOne
     private Department department;
