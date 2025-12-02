@@ -16,7 +16,7 @@ public class Enrollment {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idEnrollment;
     private LocalDate enrollmentDate;
-    private Double grade;
+
     @Enumerated(EnumType.STRING)
     private Status status;
 
